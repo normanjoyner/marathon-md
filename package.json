@@ -1,0 +1,37 @@
+{
+  "name": "marathon-md",
+  "version": "0.0.0",
+  "description": "A marathon application backup and restoration utility",
+  "main": "application.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/normanjoyner/marathon-md.git"
+  },
+  "keywords": [
+    "marathon",
+    "backup",
+    "zookeeper",
+    "md",
+    "s3"
+  ],
+  "author": "Norman Joyner <norman.joyner@gmail.com>",
+  "license": "GPLv2",
+  "bugs": {
+    "url": "https://github.com/normanjoyner/marathon-md/issues"
+  },
+  "homepage": "https://github.com/normanjoyner/marathon-md",
+  "bin": {
+    "marathon-md": "./application.js"
+  },
+  "dependencies": {
+    "async": "^0.9.0",
+    "aws-sdk": "^2.0.29",
+    "lodash": "^2.4.1",
+    "nomnom": "^1.8.1",
+    "request": "^2.49.0",
+    "winston": "^0.8.3"
+  }
+}
