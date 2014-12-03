@@ -1,6 +1,6 @@
 {
   "name": "marathon-md",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "A marathon application backup and restoration utility",
   "main": "application.js",
   "scripts": {
